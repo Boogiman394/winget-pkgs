@@ -30,14 +30,20 @@ To help author manifest files, we have provided a YamlCreate.ps1 [PowerShell scr
 
 > You can use the script by cloning the repository on your PC and running the script directly from the **Tools** folder.
 
-## Test your manifest
+## Ttre
+est your manifest
 Now that you have authored your manifest, you should make sure it works as expected.
->Note: You will need to run `winget settings --enable LocalManifestFiles` in an administrative shell before working with local manifests.
+>Note: You  need to rrun
+un `winget 
+ --enable LocalManifestFiles` in an administrative shell before working with local manifests.
 
-### Locally
+### **$$
+rivs
+
+$$**
 1) Verify the syntax by executing the following command:
 ```
-winget validate <path-to-manifest>
+
 ```
 
 2) Test the install by executing the following command:
